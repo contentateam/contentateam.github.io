@@ -1,7 +1,14 @@
 /* Reset default browser styles */
 body, h1, h2, p, ul, li {
     margin: 0;
-    padding: 0;
+    padding: 10;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 body {
@@ -30,13 +37,28 @@ nav {
     font-size: 36px;
 }
 
+#main_image_front {
+    border-radius: 30px;
+    width: 60%;
+    height: 60%;
+    padding: 50px;
+    align-self: flex-start;
+}
+
+
 /* Hero section */
 #hero {
-    background-image: url('/Trial2.jpeg'); /* Add your hero image here */
-    background-size: cover;
+    background: rgba(0, 0, 0, 0.6);
     text-align: center;
     color: #fff;
-    padding: 100px 0;
+    padding: 0;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+#hero2 {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 100px 0px 200px 0px;
 }
 
 #hero h1 {
@@ -49,19 +71,23 @@ nav {
 
 /* Content container */
 .container {
-    background-image: url('/Trial2.jpeg'); /* Add your hero image here */
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    background: rgb(255, 237, 201);
+    border: 2px solid rgb(255, 237, 201);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* About section */
-#about {
-    background-color: #fff;
+#about h2{
+    margin-bottom: 10px;
+}
+
+#aboutContainer {
+    min-height: 1000;
+    margin-top: 100px;
 }
 
 /* Team section */
@@ -69,10 +95,25 @@ nav {
     list-style-type: disc;
     padding-left: 20px;
 }
+#team h2{
+    margin-bottom: 10px;
+}
 
 /* Reports section */
 #reports {
-    background-color: #fff;
+    padding-bottom: 250px;
+}
+#reports h2{
+    margin-bottom: 10px;
+}
+
+/* Reports section */
+#body_g {
+    background-image: url('images/Trial2.png'); /* Add your hero image here */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 /* Media queries for responsive design */
