@@ -1,0 +1,86 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo h1 {
+    font-size: 36px;
+}
+
+/* Hero section */
+#hero {
+    background-image: url('/Trial1.jpeg'); /* Add your hero image here */
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 48px;
+}
+
+#hero p {
+    font-size: 24px;
+}
+
+/* Content container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* About section */
+#about {
+    background-color: #fff;
+}
+
+/* Team section */
+#team ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Reports section */
+#reports {
+    background-color: #fff;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    #hero {
+        padding: 50px 0;
+    }
+    
+    .container {
+        padding: 10px;
+    }
+}
