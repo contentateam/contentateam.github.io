@@ -263,6 +263,10 @@ nav {
         font-size: 5;
         color: #a8a8a8;
     }
+    #subtext2 {
+        font-size: 5;
+        color: #d1d1d1;
+    }
     .container5 {
         max-width: 400px;
         width: auto;
@@ -318,6 +322,10 @@ nav {
     #subtext {
         font-size: 9;
         color: #a8a8a8;
+    }
+    #subtext2 {
+        font-size: 9;
+        color: #d1d1d1;
     }
     .container5 {
         max-width: 400px;
