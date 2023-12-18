@@ -177,6 +177,7 @@ nav {
 }
 
 
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
     h2 {
@@ -386,6 +387,44 @@ nav {
     background-size: cover;
 
 }
+
+.report_container {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: #c6c6c6;
+    color: #010101;
+    text-decoration: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+}
+
+.more_docs {
+    font-size: 12;
+    font-family: "Poppins-Regular";
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.set_to_start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.on_same_row {
+    display: flex;
+    /* Optional: Adjust other flex properties as needed */
+    justify-content: space-between; /* Distribute items evenly along the row */
+    margin-bottom: 20px;
+}
+
+#pdfEmbed {
+    display: none; /* Initially hide the embed */
+}
+
 
 /* Media queries for responsive design */
 @media screen and (max-width: 768px) {
