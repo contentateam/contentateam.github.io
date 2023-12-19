@@ -69,7 +69,7 @@ nav {
     color: #fff;
     padding: 0;
     padding-top: 200px;
-    padding-bottom: 400px;
+    padding-bottom: 150px;
     margin: 0;
     animation: fade 1s ease-in-out 1s both;
 }
@@ -99,11 +99,28 @@ nav {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
     }
 
+    #fade_back1 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+        padding-top: 20%;
+        padding-bottom: 15%;
+    }
+
+    #fade_back2 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+
+    #fade_back3 {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        padding-bottom: 5%;
+    }
+
     #about_sect3 {
         padding: 20px 0;
         display: flex;
         align-items: center;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("/images/PhonePic-modified.png");
+        background: linear-gradient(to right, rgba(0, 0, 0,202, 139, 44, 0), rgba(202, 139, 44, 0.5), rgba(202, 139, 44, 0.8)), url("/images/PhonePic-modified.png");
         background-size:auto;
         background-repeat: no-repeat;
         background-position: 30%;
@@ -138,7 +155,7 @@ nav {
         padding: 20px 0;
         display: flex;
         align-items: center;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3)), url("/images/PhonePic-modified.png");
+        background: linear-gradient(to right, rgba(202, 139, 44, 0.0), rgba(202, 139, 44, 0), rgba(0, 0, 0, 0.5), rgba(202, 139, 44, 0.0), rgba(202, 139, 44, 0.3)), url("/images/PhonePic-modified.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 30%;
@@ -150,7 +167,7 @@ nav {
         padding: 20px 0;
         display: flex;
         align-items: center;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url("/images/FoodRandom-modified.png");
+        background: linear-gradient(to right, rgba(202, 139, 44, 0.3), rgba(202, 139, 44, 0.1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("/images/FoodRandom-modified.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 80%;
@@ -345,7 +362,7 @@ nav {
     max-width: 900px;
     padding: 50px;
     margin: 0 0;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.8));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7),  rgba(140, 97, 32, 0.8),  rgba(140, 97, 32, 0.8));
     border-radius: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -401,12 +418,12 @@ nav {
 }
 
 .more_docs {
-    font-size: 12;
     font-family: "Poppins-Regular";
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
     padding-top: 10px;
+    font-size: 14px;
 }
 
 .set_to_start {
