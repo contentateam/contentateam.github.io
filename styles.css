@@ -111,11 +111,6 @@ nav {
         padding-bottom: 5%;
     }
 
-    #fade_back3 {
-        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
-        padding-bottom: 5%;
-    }
-
     #about_sect3 {
         padding: 20px 0;
         display: flex;
@@ -139,6 +134,7 @@ nav {
         width: 100%;
         height: 600px;
     }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -177,6 +173,69 @@ nav {
 
 }
 
+
+#team_sect3 {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    background: url("/images/team.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 600px;
+}
+
+#background_lighting {
+    background: linear-gradient(to right, rgba(202, 139, 44, 0.3), rgba(202, 139, 44, 0.1), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    padding: 0;
+    padding-top: 4%;
+}
+#another_lighting {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0),  rgba(0, 0, 0, 0));
+    padding: 0;
+}
+
+#about_sect4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#about_sect4nopad {
+    padding: 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0));
+}
+
+
+#fade_back3 {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+    padding: 0;
+}
+
+
+#fade_back4 {
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.container6 {
+    max-width: 80%;
+    width: auto;
+    align-self: center;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7),  rgba(140, 97, 32, 0.8),  rgba(140, 97, 32, 0.8));
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 #main_image_div2 {
     flex: 1;
 }
@@ -193,12 +252,23 @@ nav {
     color: white;
 }
 
+#aboutContainer3 {
+    flex: 1;
+    color: white;
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
     h2 {
         font-size: 22px;
+        line-height: 2;
+    }
+
+    #aboutContainer3 h2 {
+        text-align: center;
+        font-size: 20px;
         line-height: 2;
     }
 
@@ -215,6 +285,11 @@ nav {
 @media only screen and (min-width: 1200px) {
     h2 {
         font-size: 30px;
+        line-height: 2;
+    }
+    #aboutContainer3 h2 {
+        text-align: center;
+        font-size: 35px;
         line-height: 2;
     }
     
@@ -277,6 +352,19 @@ nav {
         justify-content: center;
         text-align: center;
     }
+    #reports2{
+        flex: 1;
+        display: flex;
+        width: 100%;
+        height: 300px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 20%;
+        padding-top: 20%;
+    }
     #subtext {
         font-size: 5;
         color: #a8a8a8;
@@ -336,6 +424,19 @@ nav {
         align-content: center;
         justify-content: center;
         text-align: center;
+    }
+    #reports2{
+        flex: 1;
+        display: flex;
+        width: 100%;
+        height: 600px;
+        align-self: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 20%;
+        padding-top: 20%;
     }
     #subtext {
         font-size: 9;
